@@ -1,5 +1,5 @@
 function Mostrar()
-{
+/*{
 var hora = document.getElementById('hora').value;
 switch(hora)
 {
@@ -11,11 +11,7 @@ case"11":
 alert("Es de mañana");
 break;
 }
+}*/
 
-
-	
-	
-
-
-
-}
+{
+var hora=document.getElementById("hora").value;

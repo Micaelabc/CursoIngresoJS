@@ -1,7 +1,11 @@
 function Mostrar()
 {
+var numero;
+numero=prompt();
+while(numero<0 || numero>9)//Es validacion de numero
+{
+numero=prompt("Ingrese un numero del 0 al 9");
+}
 
-	var numero = prompt("ingrese un número entre 0 y 10.");
 
-
-}//FIN DE LA FUNCIÓN
+}
